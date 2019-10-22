@@ -132,6 +132,6 @@ graph save Scatter_Case2_endogData_1.gph, replace
 
 graph combine Scatter_Case1_endogData_1.gph Scatter_Case2_endogData_1.gph, ///
 title("Scatterplot of the estimates of Beta 1 across Beta 2") ///
-subtitle("Created by: Aurora Vargas")
+subtitle("Created by: avarga5")
 
 graph save Combined_Scatter_endogData_1.gph, replace
