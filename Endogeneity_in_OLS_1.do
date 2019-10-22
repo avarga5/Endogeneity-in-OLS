@@ -53,6 +53,9 @@ forvalues i = -1(0.1)1{
 	erase endogData_1_`i'.dta
 }
 
+*summary statistics--> check means
+summarize beta1 beta2
+
 *make scatter plot where commmand is scatter and then put y axis var first then x axis var
 label var beta1 "Beta 1"
 label var beta2 "Beta 2"
@@ -112,6 +115,9 @@ forvalues i = -1(0.1)1{
 	append using endogData_1_`i'.dta
 	erase endogData_1_`i'.dta
 }
+
+*summary statistics--> check means
+summarize beta1 beta2
 
 *make scatter plot where commmand is scatter and then put y axis var first then x axis var
 label var beta1 "Beta 1"
