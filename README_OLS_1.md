@@ -3,7 +3,7 @@ This repository looks at instances of endogeneity and how to correct for them.
 
 Problem:
 Here we will consider the regression model Y = β0 +β1X + epsilon. 
-If X and epsilon are related, we say that X is endogenous. 
+If X and epsilon are related, we say that X is endogenous and has both good and bad variation. 
 
 In the associated do file, we will simulate the bias in OLS estimates of β1 where some determinant of X may also directly determine Y. 
 We will also summarize and display the results.
